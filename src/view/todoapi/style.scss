@@ -1,0 +1,29 @@
+.list {
+    background-color: #b9b9b9;
+    color: #fff;
+    margin-top: 20px;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    p {
+        font-size: 20px;
+    }
+
+    button {
+        &:hover {
+            background-color: #e4e4e4;
+        }
+
+        border: none;
+        outline: none;
+        border-radius: 20px;
+
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
